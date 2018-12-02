@@ -1,0 +1,30 @@
+{
+  "name": "graphql",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab",
+    "simple": "node simple.js",
+    "subquery": "node subquery.js",
+    "batch": "node batch.js",
+    "mutation": "node mutation.js",
+    "client": "node client.js"
+  },
+  "keywords": [],
+  "author": "lloydbenson",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "boom": "7.x.x",
+    "graphi": "6.x.x",
+    "hapi": "17.x.x",
+    "inert": "5.x.x",
+    "lodash": "4.17.11",
+    "random-name": "0.1.2"
+  },
+  "devDependencies": {
+    "code": "5.x.x",
+    "easygraphql-tester": "0.0.7",
+    "lab": "18.x.x"
+  }
+}
