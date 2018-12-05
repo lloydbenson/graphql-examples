@@ -63,7 +63,7 @@ export default {
     })
   },
   async mounted () {
-    this.users = await this.getUsers()
+    await this.getUsers()
   }
 }
 </script>
